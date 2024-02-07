@@ -52,6 +52,17 @@ form h2{
 }
 button{
     width: 100%;
+    border:none;
+    padding:10px;
+    background-color: #77bcd7;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition:all 0.3s ease;
+}
+button:hover{
+    background-color: #295580;
 }
 .modal{
     display:none;
