@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Segoe UI",  sans-serif;
+}
+body{
+    background-color: #dcdcdc;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding:0 20px;
+}
+.container{
+    display:flex; 
+}
+.container img{
+    width:50%;
+    border-radius: 20px;
+}
