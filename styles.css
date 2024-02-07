@@ -14,8 +14,45 @@ body{
 }
 .container{
     display:flex; 
+    gap:20px;
+    background-color: #fff;
+    width:100%;
+    max-width:920px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow:0 10px 30px rgba(0,0,0,0,0.1);
 }
 .container img{
     width:50%;
     border-radius: 20px;
+    object-fit: cover;
+}
+.container form{
+    width:50%;
+}
+form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-control{
+    position: relative;
+    margin-bottom: 15px;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control input, textarea{
+    width: 100%;
+    padding:10px;
+    padding-right: 40px;
+    border-radius: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+}
+button{
+    width: 100%;
+}
+.modal{
+    display:none;
 }
