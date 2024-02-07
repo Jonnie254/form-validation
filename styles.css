@@ -12,6 +12,7 @@ body{
     height: 100vh;
     padding:0 20px;
 }
+/* styling the container */
 .container{
     display:flex; 
     gap:20px;
@@ -64,6 +65,16 @@ button{
 button:hover{
     background-color: #295580;
 }
+/* styling the modal */
 .modal{
     display:none;
+}
+/*styling responsiveness */
+@media screen and (max-width:920px){
+    .container img{
+        display: none;
+    }
+    .container form{
+        width:100%;
+    }
 }
